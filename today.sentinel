@@ -1,0 +1,5 @@
+import "time"
+
+day_of_week = func() {
+  return time.now.weekday_name
+}

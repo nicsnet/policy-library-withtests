@@ -1,0 +1,7 @@
+import "resources"
+
+param limit default 100
+
+main = rule {
+  resources.count() < limit
+}

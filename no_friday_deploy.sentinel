@@ -1,0 +1,5 @@
+import "today"
+
+main = rule {
+  today.day_of_week() != "Friday"
+}
